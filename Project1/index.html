@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahil's Architectural Hub</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Project1/style.css">
+<style>
+    /* CSS RESET */
+    body {
+        font-family: 'Fuzzy Bubbles', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('architecture.jpg');
+    }
+
+    .left {
+        position: absolute;
+        position: absolute;
+        left: 27px;
+        top: 30px;
+        /* border: 2px solid hsl(0, 100%, 50%); */
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .mid {
+        /* border: 2px solid rgb(211, 193, 27); */
+        display: block;
+        width: 51%;
+        margin: 30px auto;
+        top: 30px;
+    }
+
+    .right {
+        position: absolute;
+        right: 32px;
+        top: 30px;
+        /* border: 2px solid rgb(86, 28, 194); */
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .navbar li a {
+        color: rgb(121, 11, 53);
+        text-decoration: none;
+        padding: 34px 7px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: rgb(223, 54, 76);
+    }
+
+    .left img {
+        width: 100px;
+        height: 120 px;
+        border-radius: 13px;
+    }
+
+    .btn {
+        font-family: 'Fuzzy Bubbles', cursive;
+        margin: 0px 10px;
+        color: rgb(9, 110, 23);
+        background-color: rgb(245, 244, 171);
+        padding: 5px 4px;
+        border: 2px solid rgb(179, 255, 0);
+        border-radius: 9px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(223, 80, 236);
+    }
+
+
+    .container {
+        border: 2px solid black;
+        margin: 126px 62px;
+        padding: 24px 76px;
+        width: 30%;
+        border-radius: 21px;
+    }
+
+    .form_group input {
+        text-align: center;
+        display: block;
+        width: 265px;
+        padding: 17px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 16px;
+        border-radius: 17px;
+        font-family: 'Fuzzy Bubbles';
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 75%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- Left box for logo -->
+        <div class="left">
+            <img src="logo.jpg" alt="">
+            <div>Sahil's Architectural Hub</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Architecture Preview</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Feedback Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join with us:</h2>
+        <form action="">
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter your good name">
+            </div>
+            <div class="form_group">
+                <input type="number" name="" placeholder="Enter your good budget">
+            </div>
+            <div class="form_group">
+                <input type="text" name="" placeholder="Enter required place">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
